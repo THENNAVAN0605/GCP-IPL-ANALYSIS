@@ -3,7 +3,7 @@
 ## INTRODUCTION
 This project analyzes an IPL dataset to identify which players lost the most wickets at specific overs during matches. 
 It leverages multiple Google Cloud Platform (GCP) services to process and analyze data in a scalable and efficient pipeline. 
-Power BI is used to visualize the results for deeper insights.
+LOOKER STUDIO is used to visualize the results for deeper insights.
 
 ## ARCHITECTURE
 ![PROJECT ARCHITECTURE](architecturediagram.jpg)
