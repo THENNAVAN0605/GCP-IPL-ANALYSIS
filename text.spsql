@@ -1,0 +1,5 @@
+SELECT player_out, over, COUNT(*) as wickets_lost
+FROM `gcp-ipl-001.dataset.deliveries`
+WHERE player_out IS NOT NULL
+GROUP BY player_out, over
+ORDER BY wickets_lost DESC
